@@ -1,0 +1,6 @@
+name: HopperClientPlugin
+main: plugin.server.Main
+version: 1.0.0
+author: Phoenx
+description: A plugin that interacts with Hopper Client
+depend: [ProtocolLib]
