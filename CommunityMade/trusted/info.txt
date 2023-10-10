@@ -1,0 +1,1 @@
+Trusted contains all resources that have been looked over and verified as safe
