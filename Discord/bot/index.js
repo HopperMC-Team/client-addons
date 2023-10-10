@@ -10,16 +10,10 @@ module.exports = client;
 client.commands = new Collection();
 client.slashCommands = new Collection();
 
-//Initialize the Database
-mongoose.connect(process.env.mongodb, { useNewUrlParser: true, useUnifiedTopology: true }).then(console.log('Connected to Mongodb.'));
-
 //Initialize FS
 require("./handler")(client);
-
-//Initialize Canvas
-
 
 //Login to the Client
 client.login(process.env.TOKEN);
 
-// Not complete
+// Bot is NOT complete
